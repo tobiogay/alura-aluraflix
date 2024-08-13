@@ -1,20 +1,22 @@
 body {
     color: white;
-    background: black;
+    background: rgb(8, 7, 19);
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px rgb(79, 89, 155);
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    font-weight: bold;
+    color: rgb(39, 17, 210);
 }
 
 .chamada {
-    background: rgb(184, 156, 213);
+    background-image: url(images/bg\ aranha.jpg);
+    border-bottom: solid 2px rgb(163, 65, 65);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -31,6 +33,7 @@ h1 {
 
 p {
     font-size: 20px;
+    color: rgb(180, 216, 250)
 }
 
 .categoria-videos {
@@ -52,9 +55,9 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 3px solid rgb(180, 216, 250);
 }
 
 .categoria h2 {
-    color: rgb(42, 122, 228);
+    color: rgb(180, 216, 250);
 }
